@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WhiteCashProgramm
 {
-    public partial class Form1 : Form
+    public partial class WhiteCash : Form
     {
-        public Form1()
+        public WhiteCash()
         {
             InitializeComponent();
         }

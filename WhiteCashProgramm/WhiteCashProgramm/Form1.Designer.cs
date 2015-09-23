@@ -1,6 +1,6 @@
 ﻿namespace WhiteCashProgramm
 {
-    partial class Form1
+    partial class WhiteCash
     {
         /// <summary>
         /// Erforderliche Designervariable.
@@ -28,9 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // WhiteCash
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(1576, 1136);
+            this.Name = "WhiteCash";
+            this.Text = "White Cash V0.001";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
